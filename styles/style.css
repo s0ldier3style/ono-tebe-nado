@@ -22,7 +22,6 @@ header {
 
 .menu-no-underline {
   text-decoration: none;
-  
 }
 
 .menu-no-marker {
@@ -37,17 +36,16 @@ header {
 
 address {
   color: #000;
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 24.3px; /* 135% */
+  font-family: Raleway, "Arial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.3px; /* 135% */
 }
 
 .cover {
   position: relative;
   width: 100%;
-  
 }
 
 .cover-image {
@@ -56,18 +54,18 @@ line-height: 24.3px; /* 135% */
 }
 
 .overlay {
- position: absolute;
- inset: 0;
- background-color: rgba(7, 7, 7, 0.6);
+  position: absolute;
+  inset: 0;
+  background-color: rgba(7, 7, 7, 0.6);
 }
 
 .title {
- padding: 185px 50px 237px 50px;
+  padding: 185px 50px 237px 50px;
 }
 
 h1 {
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, "Arial", sans-serif;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
@@ -77,7 +75,7 @@ h1 {
   display: block;
   gap: 25px;
   padding-left: 50px;
-  padding-right: 50px; 
+  padding-right: 50px;
 }
 
 .title-text {
@@ -89,9 +87,8 @@ h1 {
   padding-top: 185px;
 }
 
-.tebe { 
+.tebe {
   text-align: center;
-  
 }
 
 .nado {
@@ -122,7 +119,7 @@ h1 {
 .subline {
   text-wrap: nowrap;
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, "Arial", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -138,7 +135,7 @@ h1 {
   background: transparent;
   color: #fff;
   text-align: center;
-  font-family: Raleway;
+  font-family: Raleway, "Arial", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -154,7 +151,7 @@ h2 {
   padding-left: 40px;
   padding-bottom: 27px;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, "Arial", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -183,7 +180,6 @@ h2 {
   display: flex;
   width: 100%;
   height: 100%;
-  
 }
 
 .card {
@@ -191,30 +187,27 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   padding: 0px 40px 50px 40px;
-
 }
 
 h3 {
   padding-top: 50px;
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, "Arial", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; 
+  line-height: 120%;
   text-decoration-line: underline;
   text-transform: uppercase;
-  
 }
 
 .card-text {
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, "Arial", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
-  
 }
 
 .lot-1 {
@@ -230,14 +223,14 @@ h3 {
 .lot-3 {
   background-image: url(/images/card-lot-03.jpg);
   background-size: contain;
-} 
+}
 
 .more {
   box-sizing: content-box;
   margin-top: 30px;
   text-indent: 40px;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, "Arial", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -281,7 +274,7 @@ h3 {
 .about-column-title {
   text-align: left;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, "Arial", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -295,11 +288,11 @@ h3 {
   gap: 25px;
   margin-top: 100px;
   color: #000;
-font-family: Raleway;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  font-family: Raleway, "Arial", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 footer {
@@ -325,7 +318,7 @@ footer {
   text-align: center;
   color: #000;
   text-align: center;
-  font-family: Raleway;
+  font-family: Raleway, "Arial", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
