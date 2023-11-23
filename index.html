@@ -27,54 +27,49 @@
         </ul>
       </nav>
 
-      <div class="logo">
+      <a class="logo">
         <img
           class="header-logo"
           src="/images/logo-black.svg"
           alt="Черный логотип"
         />
-      </div>
+      </a>
 
       <address>
-        <p>
-          <a href="tel:+99995555555">+9 999 555 5555</a>
-        </p>
-        <p>
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        </p>
-        <p>
-          наб. Принсенграхт 263-265,<br />
-          Амстердам
-        </p>
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <br />
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <br />
+        наб. Принсенграхт 263-265,<br />
+        Амстердам
       </address>
     </header>
     <main>
       <section class="cover">
-        <img class="cover-image" src="images/cover.jpg" alt="Фон" />
-        <div class="overlay">
-          <h1>
-            <span class="title-text ono">о<span class="ls-60">но</span></span>
-            <span class="title-text tebe">те<span class="ls-60">бе</span></span>
-            <span class="title-text nado"
-              ><span class="ls-start">н</span>ад<span class="ls-0"
-                >о</span
-              ></span
-            >
-          </h1>
-          <div class="subline-wrapper">
-            <p class="subline">Аукцион вещей, в которые никто не верил</p>
-            <button class="subline-button">Сделать ставку</button>
-          </div>
+        <div class="overlay"></div>
+        <h1>
+          <span class="title-text ono">о<span class="ls-60">но</span></span>
+          <span class="title-text tebe">те<span class="ls-60">бе</span></span>
+          <span class="title-text nado"
+            ><span class="ls-start">н</span>ад<span class="ls-0">о</span></span
+          >
+        </h1>
+        <div class="subline-wrapper">
+          <p class="subline">Аукцион вещей, в которые никто не верил</p>
+          <button class="subline-button">Сделать ставку</button>
         </div>
       </section>
 
       <section class="lots" id="lots">
-        <h2>лоты</h2>
+        <h2 class="lots-title">лоты</h2>
         <ul class="lots-ul">
           <li class="lots-li">
             <a class="lots-back lot-1" href="https://google.com">
-              <article class="card overlay">
-                <h3>Фильм режиссёра, который бросил киношколу</h3>
+              <article class="card">
+                <div class="overlay"></div>
+                <h3 class="card-title">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
                 <p class="card-text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
@@ -85,8 +80,9 @@
           </li>
           <li class="lots-li">
             <a class="lots-back lot-2" href="https://google.com">
-              <article class="card overlay">
-                <h3>
+              <article class="card">
+                <div class="overlay"></div>
+                <h3 class="card-title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
                 <p class="card-text">
@@ -102,8 +98,9 @@
           </li>
           <li class="lots-li">
             <a class="lots-back lot-3" href="https://google.com">
-              <article class="card overlay">
-                <h3>
+              <article class="card">
+                <div class="overlay"></div>
+                <h3 class="card-title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
                 <p class="card-text">
@@ -116,9 +113,8 @@
             </a>
           </li>
         </ul>
-        <div class="more">
-          <a href="https://google.com">посмотреть больше</a>
-        </div>
+
+        <a class="more" href="https://google.com">посмотреть больше</a>
       </section>
       <section class="about" id="about">
         <div class="logo-column">
@@ -131,7 +127,7 @@
           </div>
         </div>
         <div class="about-column">
-          <h6 class="about-column-title">Об аукционе</h6>
+          <h2 class="about-column-title">Об аукционе</h2>
           <div class="about-text">
             <p>
               Здесь вы не встретите очередное пафосное собрание невероятно
@@ -154,28 +150,54 @@
       </section>
     </main>
     <footer>
-      <div class="socials">
-        <img class="socials-image" src="/images/yt.svg" />
-        <img class="socials-image" src="/images/vk.svg" />
-        <img class="socials-image" src="/images/pinterest.svg" />
-      </div>
-      <div class="footer-menu">
-        <a class="menu-no-underline" href="#main">главная</a>
-        <a href="#lots">посмотреть лоты</a>
-        <a href="#about">об аукционе</a>
-      </div>
       <address>
-        <p>
-          <a href="tel:+99995555555">+9 999 555 5555</a>
-        </p>
-        <p>
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        </p>
-        <p>
-          наб. Принсенграхт 263-265,<br />
-          Амстердам
-        </p>
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <br />
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <br />
+        наб. Принсенграхт 263-265,<br />
+        Амстердам
       </address>
+      <nav>
+        <ul class="footer-menu">
+          <li>
+            <a class="menu-no-underline" href="#main">главная</a>
+          </li>
+          <li>
+            <a href="#lots">посмотреть лоты</a>
+          </li>
+
+          <li>
+            <a href="#about">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="socials">
+        <li>
+          <a href="https://google.com"
+            ><img
+              class="socials-image"
+              src="/images/yt.svg"
+              alt="Значок Youtube"
+          /></a>
+        </li>
+        <li>
+          <a href="https://google.com"
+            ><img
+              class="socials-image"
+              src="/images/vk.svg"
+              alt="Значок ВКонтакте"
+          /></a>
+        </li>
+        <li>
+          <a href="https://google.com"
+            ><img
+              class="socials-image"
+              src="/images/pinterest.svg"
+              alt="Значок Pinterest"
+          /></a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
