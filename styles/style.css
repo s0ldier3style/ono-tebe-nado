@@ -49,6 +49,7 @@ address {
   width: 100%;
   height: 100%;
   background-image: url(/images/cover.jpg);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -182,6 +183,7 @@ h1 {
   height: 450px;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 
 .lots-back {
@@ -189,7 +191,8 @@ h1 {
   display: flex;
   width: 100%;
   height: 100%;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   flex-grow: 1;
   text-decoration: none;
@@ -243,6 +246,7 @@ h1 {
 
 .more {
   display: block;
+  max-width: fit-content;
   margin-top: 30px;
   margin-left: 40px;
   color: #000;
@@ -284,7 +288,6 @@ h1 {
 .about-column {
   max-width: 885px;
   width: 100%;
-  margin-top: 1no00px;
 }
 
 .about-column-title {
